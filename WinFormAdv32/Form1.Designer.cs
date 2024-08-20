@@ -347,18 +347,21 @@
             this.확대ToolStripMenuItem.Name = "확대ToolStripMenuItem";
             this.확대ToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
             this.확대ToolStripMenuItem.Text = "확대";
+            this.확대ToolStripMenuItem.Click += new System.EventHandler(this.확대ToolStripMenuItem_Click);
             // 
             // 축소ToolStripMenuItem
             // 
             this.축소ToolStripMenuItem.Name = "축소ToolStripMenuItem";
             this.축소ToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
             this.축소ToolStripMenuItem.Text = "축소";
+            this.축소ToolStripMenuItem.Click += new System.EventHandler(this.축소ToolStripMenuItem_Click);
             // 
             // 확대하기축소하기기본값복원ToolStripMenuItem
             // 
             this.확대하기축소하기기본값복원ToolStripMenuItem.Name = "확대하기축소하기기본값복원ToolStripMenuItem";
             this.확대하기축소하기기본값복원ToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
             this.확대하기축소하기기본값복원ToolStripMenuItem.Text = "확대하기/축소하기 기본값 복원";
+            this.확대하기축소하기기본값복원ToolStripMenuItem.Click += new System.EventHandler(this.확대하기축소하기기본값복원ToolStripMenuItem_Click);
             // 
             // 도움말보기ToolStripMenuItem
             // 
@@ -400,7 +403,7 @@
             // 
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
             this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
-            this.toolStripProgressBar1.Value = 100;
+            this.toolStripProgressBar1.Value = 50;
             // 
             // textBox1
             // 
